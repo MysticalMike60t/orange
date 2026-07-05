@@ -1,48 +1,94 @@
-# Orange - Best SoundCloud Experience you will be ever served on Desktop!
-Website for "The Orange App" - The SoundCloud client for Desktop Linux and Windows.
-<p align="center">
-  <img width="200" height="200" src="https://github.com/keshavbhatt/orange/blob/master/icon.png?raw=true">
-</p>
+<!-- HTML used to make README look nicer -->
+<div id="section--head" align="center">
+  <img id="section--head-banner" src="images/banner.jpg" alt="Orange: Complete SoundCloud GUI client for Linux." width="100%" />
+</div>
+<div id="section--description" align="center">
+  <img src="images/description.webp" alt="Best SoundCloud Experience you will be ever served on Desktop!" width="100%" />
+</div>
+<div align="center" height="1">
+  <img src="images/seperator-orange.webp" alt="Seperator" width="100%" height="1" />
+</div>
+<div id="section--downloads-badges">
+  <p></p> <!-- Fixes weird gap issue -->
+  <div id="section--downloads-badges-platforms" align="center">
+    <a id="section--downloads-badges-platforms-snap" href="https://snapcraft.io/orange-app">
+      <img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" alt="Get it from the Snap Store!" />
+    </a>
+  </div>
+</div>
+<div align="center" height="1">
+  <img src="images/seperator-orange.webp" alt="Seperator" width="100%" height="1" />
+</div>
+<div id="section--toc">
+  <h1>Table Of Contents</h1>
 
-Orange is a neat, simple yet feature rich, privacy focused SoundCloud Player and Downloader application available for Linux Platform.
+  - [Downloads][downloads]
+    - [Snap][downloads-snap]
+      - [Command][downloads-snap-command]
+  - [Features][features]
+  - [Screenshots][screenshots]
+  - [Repository Stats][stats]
+</div>
+<div id="section--downloads">
+  <h1>Downloads</h1>
+  <p>
+    Only <b>Linux</b> is supported currently, but <b>Windows</b> support is coming soon...
+  </p>
+  <div id="section--downloads-snap">
+    <h2>Snap</h2>
+    <p>
+      <span>Download directly from</span>
+      <a id="section--downloads-badges-platforms-snap" href="https://snapcraft.io/orange-app">Snapcraft.io/orange-app</a>
+    </p>
+     <div id="section--downloads-snap-command">
+        <h3>Command</h3>
+        <pre><code>snap install orange-app</code></pre>
+      </div>
+  </div>
+</div>
+<div id="section--features">
+  <h1>Features</h1>
+  
+  * Song downloader
+  * Sign-in persistance
+  * Ad-blocker which blocks annoying SoundCloud ads
+  * Option to block SoundCloud loggers and trackers.
+  * Option to disable loading of comments on tracks.
+  * App lock option with PIN
+  * Download Manager
+  * 7 audio formats (mp3, aac, m4a, opus, flac, wav, and vorbis).
+  * Custom media player built-in.
+  * Loads last visited page on app startup
+  * Less RAM usage <code>230 MB max</code> with lighter memory footprint than website in Chrome <code>360+ MB</code> or Firefox <code>358+ MB</code>.
+  * Seperates SoundCloud browsing data from rest of your browsing data.
+  * Configurable cache and cookies.
+  <div align="center"><blockquote>More features coming soon...</blockquote></div>
+</div>
+<div align="center" height="1">
+  <img src="images/seperator-orange.webp" alt="Seperator" width="100%" height="1" />
+</div>
+<div id="section--screenshots">
+  <div id="section--screenshots-grid" align="center">
+    <img src="images/1.jpg" alt="Orange Main screen example screenshot" width="45%" />
+    <img src="images/2.jpg" alt="Orange SoundCloud Track Options example screenshot" width="45%" />
+    <img src="images/3.jpg" alt="Orange Settings Dialog example screenshot" width="45%" />
+    <img src="images/4.jpg" alt="Orange Lock Screen option example screenshot" width="45%" />
+  </div>
+</div>
+<div align="center" height="1">
+  <img src="images/seperator-orange.webp" alt="Seperator" width="100%" height="1" />
+</div>
+<div id="section--stats" align="center">
+  <img src="https://img.shields.io/badge/SoundCloud-FF3500?style=flat&logo=soundcloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/github/stars/keshavbhatt/orange" />
+</div>
 
-## Main Features of Orange :
-
-* Orange give you complete SoundCloud Experience, you can sign-in to your account and Download or Play content straight from your collection.
-* Orange persists users settings without needing to Sign-Up or Sign-In  for a SoundCloud account .
-* Orange comes with built-in lightweight yet powerful Ad-blocker which was designed to block annoying SoundCloud ads without slowing down the experience.
-* Orange has option to block SoundCloud's nasty Loggers and trackers.
-* Orange allows you to disable loading of comments on tracks.
-* Orange cares for your privacy, It comes with App screen Lock feature, which prevent anyone one from gaining access to your Application/Account  without your passcode.
-* Orange has its own Download Manager, which allows you to download media in any format you want, You can also resume the downloads even after years.
-*  You can download and listen Audio of any Track in 7 audio formats (mp3, aac, m4a, opus, flac, wav, and vorbis).
-* Orange also have its own media player inbuilt.
-* Orange saves your last visited page and allow you to restore it even after app shutdowns.
-* Orange take less RAM (230 Mb max) and is lighter in memory footprint then SoundCloud tab opened in Chrome(360 Mb+)  or Firefox(358 Mb+) .
-* Orange seperate your SoundCloud browsing data from rest of your browsing data and keeps it inside container,so no other services can have access to it. Hence cannot use your data show you advertisements. 
-* Orange exposes options to manage application Cache and Cookie to users.
-* Orange will bring many more exciting features in near future, spread the name and the app with your friends, family and colleagues.
-
-## Screenshot :
-![Orange Main screen](https://github.com/keshavbhatt/orange/blob/master/images/1.jpg?raw=true)
-
-![Orange SoundCloud Track Options](https://github.com/keshavbhatt/orange/blob/master/images/2.jpg?raw=true)
-
-
-![Orange Settings Dialog](https://github.com/keshavbhatt/orange/blob/master/images/3.jpg?raw=true)
-
-
-![Orange Lock Screen action](https://github.com/keshavbhatt/orange/blob/master/images/4.jpg?raw=true)
-## Download for Windows and Linux here :
-Orange can be installed on all Linux Desktop supporting snapd
-Via command line app can be simply installed with following command:
-
-    snap install orange-app
-### Snapstore Store link:
-[![orange-app](https://snapcraft.io/orange-app/trending.svg)](https://snapcraft.io/orange-app)
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/orange-app)
-<hr>
- Version for Windows coming soon... Stay tuned for updates :)
-<hr>
-
-
+[description]: #section--description
+[downloads-badges]: #section--downloads-badges
+[downloads]: #section--downloads
+[downloads-snap]: #section--downloads-snap
+[downloads-snap-command]: #section--downloads-snap-command
+[features]: #section--features
+[screenshots]: #section--screenshots
+[stats]: #section--stats
